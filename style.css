@@ -1,0 +1,9 @@
+#name{
+    color: blue;
+    font-family:Alex;
+}
+
+@font-face {
+    font-family: Alex;
+    src: url(/AlexBrush-Regular.ttf);
+}
