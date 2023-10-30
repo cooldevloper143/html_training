@@ -1,8 +1,25 @@
-let num = [3,4,5,6];
-
-for (let i = 0; i < num.length; i++) {
-    const element = array[i];
-    console.log(element);
-    
+function handleclick(event) {
+  console.log("hello world");
 }
-console.log("this website is working properly");
+function handleclick2(event) {
+  alert("welcome");
+}
+document.addEventListener("DOMContentLoaded", function () {
+    let date = document.getElementById("date")
+    date.addEventListener("click",
+        function (params) {
+            this.innerHTML = Date()
+        })
+  let button = document.getElementById("button");
+  button.addEventListener("click", handleclick);
+  button.addEventListener("mouseover", handleclick2);
+  const element = document.getElementById("div");
+  element.addEventListener("mouseover", function () {
+    element.style.backgroundColor = "blue";
+    element.style.borderRadius = "50px";
+});
+element.addEventListener("mouseout", function (params) {
+      element.style.backgroundColor = "black";
+      element.style.borderRadius = "50%";
+    })
+});

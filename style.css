@@ -7,3 +7,8 @@
     font-family: Alex;
     src: url(/AlexBrush-Regular.ttf);
 }
+#div{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+};
