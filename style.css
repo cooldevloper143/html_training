@@ -1,14 +1,10 @@
-#name{
-    color: blue;
-    font-family:Alex;
+#first{
+    width: 500px;
+    margin: auto;
+    border: 3px solid red;
 }
-
-@font-face {
-    font-family: Alex;
-    src: url(/AlexBrush-Regular.ttf);
+#second{
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid rgb(51, 0, 255);
 }
-#div{
-    background-color: black;
-    height: 50px;
-    width: 50px;
-};
